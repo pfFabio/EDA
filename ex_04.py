@@ -17,8 +17,8 @@ for linha in dados:
         temperatura.append(informacao['Temperatura'])
         umidade.append(informacao['Umidade'])
         pressao.append(informacao['Pressao'])
-        print(ciclo)
     
 
-print(f' a maior temperatura foi {max(temperatura)}°C\na menor temperatura foi {min(temperatura)}°C\na média das temperaturas foi {sum(temperatura)/len(temperatura)}°C')
-print(f' a maior umidade foi {max(umidade)}°C\na menor umidade foi {min(umidade)}°C\na média das umidades foi {sum(umidade)/len(umidade)}°C')
+print(f'\nA maior temperatura foi {max(temperatura)}°C\nA menor temperatura foi {min(temperatura)}°C\nA média das temperaturas foi {sum(temperatura)/len(temperatura)}°C\n')
+print(f'A maior umidade foi {max(umidade)}\nA menor umidade foi {min(umidade)}\nA média das umidades foi {sum(umidade)/len(umidade)}\n')
+print(f'A maior pressão foi {max(pressao)}°C\nA menor pressão foi {min(pressao)}\nA média das pressão foi {sum(pressao)/len(pressao)}')
