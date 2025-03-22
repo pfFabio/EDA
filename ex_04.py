@@ -19,6 +19,6 @@ for linha in dados:
         pressao.append(informacao['Pressao'])
     
 
-print(f'\nA maior temperatura foi {max(temperatura)}°C\nA menor temperatura foi {min(temperatura)}°C\nA média das temperaturas foi {sum(temperatura)/len(temperatura)}°C\n')
-print(f'A maior umidade foi {max(umidade)}\nA menor umidade foi {min(umidade)}\nA média das umidades foi {sum(umidade)/len(umidade)}\n')
-print(f'A maior pressão foi {max(pressao)}°C\nA menor pressão foi {min(pressao)}\nA média das pressão foi {sum(pressao)/len(pressao)}')
+print(f'\nA maior temperatura foi {max(temperatura)}°C\nA menor temperatura foi {min(temperatura)}°C\nA média das temperaturas foi {(sum(temperatura)/len(temperatura)):.2f}°C\n')
+print(f'A maior umidade foi {max(umidade)}\nA menor umidade foi {min(umidade)}\nA média das umidades foi {(sum(umidade)/len(umidade)):.2f}\n')
+print(f'A maior pressão foi {max(pressao)}\nA menor pressão foi {min(pressao)}\nA média das pressão foi {(sum(pressao)/len(pressao)):.2f}')
